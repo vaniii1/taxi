@@ -7,9 +7,9 @@ import java.util.Properties;
 
 public class ConnectionUtil {
     private static final String URL =
-            "jdbc:mysql://database-1.cqjoyh14nlji.eu-north-1.rds.amazonaws.com:3306/taxi";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Ltkmrf008866";
+            "your_db_url";
+    private static final String USERNAME = "your_db_username";
+    private static final String PASSWORD = "your_db_password";
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     static {
